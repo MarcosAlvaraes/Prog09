@@ -15,12 +15,18 @@ Public Class Form4
 
             If txtNum1.Text = String.Empty Or txtNum2.Text = String.Empty Then
                 lblAviso.Text = "Por favor insira os numeros"
+                MessageBox.Show("Por favor insira os numeros")
+
             Else
                 If txtNum2.Text = String.Empty Then
                     lblAviso.Text = "Por favor o numero 1"
+                    MessageBox.Show("Por favor insira o 1º Numero")
+
                 Else
                     If txtNum2.Text = String.Empty Then
                         lblAviso.Text = "Por favor insira o numero 2"
+                        MessageBox.Show("Por favor insira o 2º Numero")
+
                     End If
                 End If
 
@@ -51,12 +57,18 @@ Public Class Form4
 
             If txtNum1.Text = String.Empty Or txtNum2.Text = String.Empty Then
                 lblAviso.Text = "Por favor insira os numeros"
+                MessageBox.Show("Por favor insira os numeros")
+
             Else
                 If txtNum2.Text = String.Empty Then
                     lblAviso.Text = "Por favor o numero 1"
+                    MessageBox.Show("Por favor insira o 1º Numero")
+
                 Else
                     If txtNum2.Text = String.Empty Then
                         lblAviso.Text = "Por favor insira o numero 2"
+                        MessageBox.Show("Por favor insira o 2º Numero")
+
                     End If
                 End If
 
@@ -79,12 +91,18 @@ Public Class Form4
 
             If txtNum1.Text = String.Empty Or txtNum2.Text = String.Empty Then
                 lblAviso.Text = "Por favor insira os numeros"
+                MessageBox.Show("Por favor insira os numeros")
+
             Else
                 If txtNum2.Text = String.Empty Then
                     lblAviso.Text = "Por favor o numero 1"
+                    MessageBox.Show("Por favor insira o 1º Numero")
+
                 Else
                     If txtNum2.Text = String.Empty Then
                         lblAviso.Text = "Por favor insira o numero 2"
+                        MessageBox.Show("Por favor insira o 2º Numero")
+
                     End If
                 End If
 
@@ -107,12 +125,18 @@ Public Class Form4
 
             If txtNum1.Text = String.Empty Or txtNum2.Text = String.Empty Then
                 lblAviso.Text = "Por favor insira os numeros"
+                MessageBox.Show("Por favor insira os numeros")
+
             Else
                 If txtNum2.Text = String.Empty Then
                     lblAviso.Text = "Por favor o numero 1"
+                    MessageBox.Show("Por favor insira o 1º Numero")
+
                 Else
                     If txtNum2.Text = String.Empty Then
                         lblAviso.Text = "Por favor insira o numero 2"
+                        MessageBox.Show("Por favor insira o 2º Numero")
+
                     End If
                 End If
 
