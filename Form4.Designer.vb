@@ -59,6 +59,7 @@ Partial Class Form4
         Me.txtNum1.Name = "txtNum1"
         Me.txtNum1.Size = New System.Drawing.Size(139, 39)
         Me.txtNum1.TabIndex = 2
+        Me.txtNum1.Text = "5"
         '
         'txtNum2
         '
@@ -134,7 +135,7 @@ Partial Class Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 32.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(456, 685)
+        Me.ClientSize = New System.Drawing.Size(388, 567)
         Me.Controls.Add(Me.lblAviso)
         Me.Controls.Add(Me.btnDiv)
         Me.Controls.Add(Me.btnMulti)
